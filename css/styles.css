@@ -1,0 +1,397 @@
+.bg {
+
+  background-image: url("../imgs/background.jpg");
+  text-align: center;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+body {
+  background-color: white;
+}
+
+.nav {
+  position: fixed;
+  height: 12vh;
+  width: 100%;
+  z-index: 10000;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  transition: 1s;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.nav ul li a {
+
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 1vw;
+}
+
+.nav ul li a:hover {
+  color: #ca0a20;
+}
+
+.navbar.navbar-default {
+}
+
+a {
+  color: white;
+}
+
+.imgcentered {
+  padding-top: 20vh;
+}
+
+.centered {
+  color: white;
+  font-family: Baskerville BT;
+  font-size: 4vw;
+  width: 100%;
+  filter: drop-shadow(1px 1px 1px #000000);
+  padding-top: 5vh;
+}
+
+.centered-bottom {
+  color: white;
+  font-family: Baskerville BT;
+  font-size: 1.5vw;
+  width: 100%;
+  filter: drop-shadow(1px 1px 1px #000000);
+}
+
+
+
+.socialmedia {
+  padding-left: 1vw;
+  padding-right: 3vw;
+}
+
+.yt {
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.fb {
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.sc {
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.inst {
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.yt:hover {
+  color: #ca0a20;
+}
+
+.fb:hover {
+  color: #ca0a20;
+}
+
+.sc:hover {
+  color: #ca0a20;
+}
+
+.inst:hover {
+  color: #ca0a20;
+}
+
+
+.logo {
+  padding-left: 2vw;
+  width: 80%;
+}
+
+.button-centered {
+
+  padding-top: 10vh;
+  padding-bottom: 15vh;
+
+}
+
+.button {
+  background-color: #ca0a20;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  color: white;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2vw;
+  font-family: Bebas Kai;
+}
+
+.button:hover {
+  background-color: #8d0818;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  color: white;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2vw;
+  font-family: Bebas Kai;
+}
+
+.intro {
+  position: relative;
+  padding-top: 10vh;
+  font-family: Bebas Kai;
+  font-size: 1vw;
+  background-color: white;
+  height: 50vh;
+  padding-left: 10vw;
+  bottom: 2vh;
+}
+
+.red {
+  font-family: Bebas Kai;
+  font-size: 60pt;
+  color: #ca0a20;
+}
+
+.red1 {
+  font-family: Bebas Kai;
+  font-size: 60pt;
+  color: #ca0a20;
+  padding-top: 4vh;
+}
+
+.white {
+  font-family: Bebas Kai;
+  font-size: 60pt;
+  color: white;
+  padding-top: 4vh;
+}
+
+
+
+.bluebk {
+  font-family: Bebas Kai;
+  font-size: 60pt;
+  color: #040b13;
+  transform: rotate(1deg) skew(1deg);
+}
+
+.bio {
+  font-family: Open Sans;
+  font-size: 15pt;
+  color: #040b13;
+  transform: rotate(1deg) skew(1deg);
+  text-align: justify;
+}
+
+.content {
+  transform: rotate(-1deg) skew(-1deg);
+  overflow: hidden;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbt {
+
+  background-color: #fff;
+
+}
+
+.avatar {
+  padding-left: 8vw;
+}
+
+.name {
+  padding-top: 2vh;
+  padding-left: 6.5vw;
+  font-size: 20pt;
+  transform: rotate(1deg) skew(1deg);
+}
+
+.samples {
+  background-color: #060c14;
+  padding-left: 10vw;
+  height: 70vh;
+}
+
+iframe {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.contactos {
+  background-color: black;
+  padding-left: 10vw;
+  height: 30vh;
+
+}
+
+.contact {
+  padding-top: 2vh;
+  color: white;
+}
+
+.ct {
+
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
+.footer {
+  text-align: center;
+  height: 7vh;
+}
+
+.footerlettering {
+  padding-top: 2vh;
+  font-family: Open Sans;
+  font-size: 15pt;
+}
+
+@media(max-width: 660px) {
+
+
+
+  .centered {
+    color: white;
+    font-family: Baskerville BT;
+    font-size: 5vw;
+    width: 100%;
+    filter: drop-shadow(1px 1px 1px #000000);
+  }
+
+  .centered-bottom {
+
+    color: white;
+    font-family: Baskerville BT;
+    font-size: 2.5vw;
+    width: 100%;
+    filter: drop-shadow(1px 1px 1px #000000);
+  }
+
+  .button-centered {
+    padding-top: 10vh;
+    width:100%;
+  }
+
+  .button {
+    background-color: #ca0a20;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    color: white;
+    padding: 20px 37px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 5vw;
+    font-family: Bebas Kai;
+  }
+
+  .button:hover {
+    background-color: #8d0818;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    color: white;
+    padding: 20px 37px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 5vw;
+    font-family: Bebas Kai;
+  }
+
+  .content {
+    text-align: center;
+    transform: rotate(-1deg) skew(-1deg);
+    height: 140vh;
+  }
+
+  .bio {
+    font-family: Open Sans;
+    font-size: 15pt;
+    color: #040b13;
+    transform: rotate(1deg) skew(1deg);
+    padding-right: 7vw;
+    padding-top: 3vh;
+  }
+
+  .avatar {
+    padding-top: 5vh;
+    width: 95%;
+    padding-right: 12vw;
+  }
+
+  .name {
+    padding: 5vh;
+
+  }
+
+  .bluebk {
+    padding-right: 4vh;
+    font-family: Bebas Kai;
+    font-size: 60pt;
+    color: #040b13;
+    transform: rotate(1deg) skew(1deg);
+  }
+
+  .navbar-nav {
+    display: inline-block;
+  }
+
+  .socialmedia {
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .nav ul {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    transition: 1s;
+    width: 100%;
+  }
+
+  nav ul li {
+    display: inline-block;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+  .nav ul li a {
+
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 5.4vw;
+  }
+
+}
