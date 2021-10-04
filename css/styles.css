@@ -43,7 +43,7 @@ nav ul li {
   text-decoration: none;
   transition: all 0.3s ease 0s;
   color: #fff;
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1vw;
 }
 
@@ -64,7 +64,7 @@ a {
 
 .centered {
   color: white;
-  font-family: Baskerville BT;
+  font-family: 'Libre Baskerville', serif;
   font-size: 4vw;
   width: 100%;
   filter: drop-shadow(1px 1px 1px #000000);
@@ -73,7 +73,7 @@ a {
 
 .centered-bottom {
   color: white;
-  font-family: Baskerville BT;
+  font-family: 'Libre Baskerville', serif;
   font-size: 1.5vw;
   width: 100%;
   filter: drop-shadow(1px 1px 1px #000000);
@@ -145,7 +145,7 @@ a {
   text-align: center;
   text-decoration: none;
   font-size: 2vw;
-  font-family: Bebas Kai;
+  font-family: bebas-kai, sans-serif;
 }
 
 .button:hover {
@@ -158,35 +158,35 @@ a {
   text-align: center;
   text-decoration: none;
   font-size: 2vw;
-  font-family: Bebas Kai;
+  font-family: bebas-kai, sans-serif;
 }
 
 .intro {
   position: relative;
   padding-top: 10vh;
-  font-family: Bebas Kai;
+  font-family: bebas-kai, sans-serif;
   font-size: 1vw;
   background-color: white;
-  height: 50vh;
+  min-height: 50vh;
   padding-left: 10vw;
   bottom: 2vh;
 }
 
 .red {
-  font-family: Bebas Kai;
+  font-family: bebas-kai, sans-serif;
   font-size: 60pt;
   color: #ca0a20;
 }
 
 .red1 {
-  font-family: Bebas Kai;
+  font-family: bebas-kai, sans-serif;
   font-size: 60pt;
   color: #ca0a20;
   padding-top: 4vh;
 }
 
 .white {
-  font-family: Bebas Kai;
+  font-family: bebas-kai, sans-serif;
   font-size: 60pt;
   color: white;
   padding-top: 4vh;
@@ -195,14 +195,14 @@ a {
 
 
 .bluebk {
-  font-family: Bebas Kai;
+  font-family: bebas-kai, sans-serif;
   font-size: 60pt;
   color: #040b13;
   transform: rotate(1deg) skew(1deg);
 }
 
 .bio {
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15pt;
   color: #040b13;
   transform: rotate(1deg) skew(1deg);
@@ -271,17 +271,15 @@ iframe {
 
 .footerlettering {
   padding-top: 2vh;
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15pt;
 }
 
 @media(max-width: 660px) {
 
-
-
   .centered {
     color: white;
-    font-family: Baskerville BT;
+    font-family: 'Libre Baskerville', serif;
     font-size: 5vw;
     width: 100%;
     filter: drop-shadow(1px 1px 1px #000000);
@@ -290,7 +288,7 @@ iframe {
   .centered-bottom {
 
     color: white;
-    font-family: Baskerville BT;
+    font-family: 'Libre Baskerville', serif;
     font-size: 2.5vw;
     width: 100%;
     filter: drop-shadow(1px 1px 1px #000000);
@@ -311,7 +309,7 @@ iframe {
     text-align: center;
     text-decoration: none;
     font-size: 5vw;
-    font-family: Bebas Kai;
+    font-family: bebas-kai, sans-serif;
   }
 
   .button:hover {
@@ -324,7 +322,7 @@ iframe {
     text-align: center;
     text-decoration: none;
     font-size: 5vw;
-    font-family: Bebas Kai;
+    font-family: bebas-kai, sans-serif;
   }
 
   .content {
@@ -334,7 +332,7 @@ iframe {
   }
 
   .bio {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15pt;
     color: #040b13;
     transform: rotate(1deg) skew(1deg);
@@ -355,7 +353,7 @@ iframe {
 
   .bluebk {
     padding-right: 4vh;
-    font-family: Bebas Kai;
+    font-family: bebas-kai, sans-serif;
     font-size: 60pt;
     color: #040b13;
     transform: rotate(1deg) skew(1deg);
@@ -390,7 +388,7 @@ iframe {
     text-align: center;
     transition: all 0.3s ease 0s;
     color: #fff;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 5.4vw;
   }
 
