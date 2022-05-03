@@ -7,7 +7,7 @@
 
   <title>João Santos Music</title>
   <meta name="description" content="A simple HTML5 Template for new projects.">
-  <meta name="author" content="SitePoint">
+  <meta name="João Santos Music" content="SitePoint">
 
   <link rel="icon" href="/favicon.ico">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -19,19 +19,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
-
-  <nav class="navbar navbar-expand-lg nav" id="navbar">
-  <a class="navbar-brand" href="index.html"><img src="imgs/logo.png" class="logo"/></a>
-  <button class="navbar-toggler navbt" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+<nav id="navbar">
+  <a class="nav-logo" href="index.html"><img src="imgs/logo.png" class="logo" ></a>
+  <div class="nav-links">
+    <ul class="">
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#" onclick="scrollClickHome();return false;">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#" onclick="scrollClickBio();return false;">Bio</a>
@@ -40,64 +41,104 @@
         <a class="nav-link" href="#" onclick="scrollClickSamples();return false;">Samples</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" onclick="scrollClickContactos();return false;">Contactos</a>
+        <a class="nav-link" href="#" onclick="scrollClickContactos();return false;">Contacts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.html">Blog</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0 socialmedia">
       <a href="https://www.youtube.com/channel/UCxoF1_TY44w0q1uatXMMYIA" target="_blank"><i class="fab fa-youtube fa-2x yt"></i></a>
       <a href="https://soundcloud.com/joao-santos-1" target="_blank"><i class="fab fa-soundcloud fa-2x sc"></i></a>
-      <a href=""><i class="fab fa-instagram fa-2x inst"></i></a>
+      <a href="https://www.instagram.com/jsantos717/" target="_blank"><i class="fab fa-instagram fa-2x inst"></i></a>
       <a href="https://www.facebook.com/jsantos717" target="_blank"><i class="fab fa-facebook fa-2x fb"></i></a>
+      <a href="https://joaosantos.bandcamp.com" target="_blank"><i class="fab fa-bandcamp fa-2x bc"></i></a>
     </form>
   </div>
 </nav>
 </head>
 <body>
-
+  <div class="popup-container">
+      <div id="content" class="popup-content">
+       <button type="button" class="popup-close">X</button>
+       <div id="container" class="form-container">
+         <form target="_blank" id="container" action="https://formsubmit.co/joao.santos.music.page@gmail.com" method="POST">
+         <h1 id="container" class="form-text">Subscribe!</h1>
+         <div id="container" class="">
+           <input type="text" name="name" class="form-control" id="container" placeholder="Full Name" required>
+         </div>
+         <div id="container" class="">
+           <input type="email" name="email" id="container" class="form-control" placeholder="Email Address" required>
+         </div>
+         <div id="container" class="form-group">
+         <textarea placeholder="Your Message" id="container" class="form-control" name="message" rows="3" required></textarea>
+       </div>
+       <div id="content" class="submit">
+         <button type="submit" class="btn" id="container">Submit</button>
+       </div>
+       </form>
+       </div>
+  </div>
+  </div>
   <div class="bg">
     <div class="imgcentered"><img src="imgs/audioengineering.png"/></div>
-      <div class="centered"><b>Music production meets engineering.</b></div>
-        <div class="centered-bottom"><b>Join today</b> and start <i>learning</i> the <b>secrets</b> of <i>mixing and mastering.</i></div>
+      <div class="banner-title"><strong>Music production meets engineering.</strong></div>
+      <div class="banner-subtitle"><strong>Join today</strong> and start <em>learning</em> the <strong>secrets</strong> of <em>mixing and mastering.</em></div>
           <div class="button-centered">
       <button class="button">SUBSCRIBE</button>
     </div>
   </div>
-  <section class="content">
-    <div class="intro row">
-      <div class="col">
-        <h3 class="bluebk"> HI <span class="red">THERE!</span> </h3>
-          <p class="bio">
-            My name is John Saints. My name is John Saints. My name is John Saints. My name is John Saints. My name is John Saints. My name is John Saints.
-            My name is John Saints. My name is John Saints. My name is John Saints. My name is John Saints. My name is John Saints. My name is John Saints.
-            My name is John Saints. My name is John Saints. My name is John Saints. My name is John Saints. My name is John Saints. My name is John Saints.
-          </p>
-      </div>
-        <div class="col avatar">
-          <a href=""><img src="imgs/js.png" class="avatar"></a>
-          <p class="name">
-            João Santos, living in UK, London.
-          </p>
-        </div>
+  <div class="bio-container">
+    <div class="bio-text" id="bioanchor">
+      <h1 class="top-text"><span class="bio-text-red">Hi</span> there!</h1>
+        <p class="bio-top-text">
+        <b>My story starts when I went to the local music school in my hometown at the age of 5</b>. This is when I started to learn how to read and write music.
+        </p>
+        <p class="bio-secondary-text">
+        <b>At the age of 6 I had written my first song</b>, which I still keep it as part of the memory lane. One year later I started learning trumpet and went on a rampage of live events with the local band as the 3rd trumpet in the local philharmonic band.
+        <p class="bio-secondary-text">
+        At the age of 10 I started playing <b>Violin</b> and, again, I had the chance to play live in the streets and stages of Portugal. This is when I decided to go electric and asked my dad to buy me an electric bass as my main music reference was Mark Hoppus from Blink182. Punk, Rock and Metal started to run in my blood and suddenly I was part of a Rock band, however, I decided that guitar could be more interesting for me. That is when I took some guitar lessons and decided that I should do something with music for my life.
+        <p class="bio-secondary-text">
+        At the age of 21 I went to Restart in Lisbon, Portugal, and studied for a level 4 diploma as sound technician and started working with some other musicians from Lisbon. There I had the chance to play live and work in studios, which gave me the idea of getting a deeper knowledge of the Audio subject. At the age of 27 I went to University of West London where I studied BSc. Applied Sound Engineering obtaining a final grade of first class honours degree and MSc. Digital Audio Engineering obtaining a grade of Merit.
+        </p>
+        <p class="bio-secondary-text">
+        Currently I work as a Senior Engineer at CineArk where I am responsible for building audio and video related gear for the film industry. I also write my own songs, mix and master, and provide services for mixing and mastering audio.
+        </p>
     </div>
-  </section>
-  <div class="samples">
-    <h3 class="red1"> SAMPLES </h3>
-    <iframe width="80%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/122473586&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/joao-santos-1" title="Joao Santos" target="_blank" style="color: #cccccc; text-decoration: none;">Joao Santos</a> · <a href="https://soundcloud.com/joao-santos-1/the-man-and-the-rose-time-will" title="The man and the rose - Time will tell" target="_blank" style="color: #cccccc; text-decoration: none;">The man and the rose - Time will tell</a></div>
-    <iframe width="80%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1112109367&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/joao-santos-1" title="Joao Santos" target="_blank" style="color: #cccccc; text-decoration: none;">Joao Santos</a> · <a href="https://soundcloud.com/joao-santos-1/5-entropy" title="5 - Entropy" target="_blank" style="color: #cccccc; text-decoration: none;">5 - Entropy</a></div>
+    <div class="photo">
+      <img src='imgs/js.png'>
+      <p>
+        João Santos, living in UK, London.
+      </p>
+    </div>
   </div>
-  <div class="contactos">
-    <h3 class="white"> CONTACTOS </h3>
-    <p class="contact">
-      <span class="">Nº Telemóvel: 91 000 000 0 <span class="ct">Email: santosj717@gmail.com </span> <span class="ct"> Discord server:</span> <span class="ct"> Other contacts:</span>
-    </p>
-  </div>
-  <!--
-  <div class="footer">
-    <p class="footerlettering">
-      Copyright&nbsp<b>João Santos</b>&nbsp2021&nbsp &copy
-    </p>
-  </div>
-  -->
+
+<div class="samples-text">
+  <h1 class="red samples-txt" id="samplesanchor">Samples</h1>
+    <div class="samples">
+      <iframe width="90%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/122473586&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/joao-santos-1" title="Joao Santos" target="_blank" style="color: #cccccc; text-decoration: none;">Joao Santos</a> · <a href="https://soundcloud.com/joao-santos-1/the-man-and-the-rose-time-will" title="The man and the rose - Time will tell" target="_blank" style="color: #cccccc; text-decoration: none;">The man and the rose - Time will tell</a></div>
+      <iframe width="90%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1112109367&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/joao-santos-1" title="Joao Santos" target="_blank" style="color: #cccccc; text-decoration: none;">Joao Santos</a> · <a href="https://soundcloud.com/joao-santos-1/5-entropy" title="5 - Entropy" target="_blank" style="color: #cccccc; text-decoration: none;">5 - Entropy</a></div>
+    </div>
+</div>
+<div class="contactos-text">
+  <h1 class="red ctxt" id="contactsanchor">Contacts</h1>
+    <div class="contactos">
+      <p>
+         <i class="fas fa-phone"></i>07445173171
+      </p>
+      <p>
+        <i class="fas fa-envelope"></i>joao.santos.music.page@gmail.com
+
+      </p>
+      <div class="social-media">
+        <a href="https://www.youtube.com/channel/UCxoF1_TY44w0q1uatXMMYIA" target="_blank"><i class="fab fa-youtube fa-2x yt1"></i></a>
+        <a href="https://soundcloud.com/joao-santos-1" target="_blank"><i class="fab fa-soundcloud fa-2x sc1"></i></a>
+        <a href="https://www.instagram.com/jsantos717/" target="_blank"><i class="fab fa-instagram fa-2x inst1"></i></a>
+        <a href="https://www.facebook.com/jsantos717" target="_blank"><i class="fab fa-facebook fa-2x fb1"></i></a>
+        <a href="https://joaosantos.bandcamp.com" target="_blank"><i class="fab fa-bandcamp fa-2x bc1"></i></a>
+      </div>
+    </div>
+</div>
   <script
 		  src="https://code.jquery.com/jquery-3.6.0.js"
   		  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
